@@ -30,6 +30,16 @@ hr {
 
     }
 
+/* Estilo Nuero de Telefono oi */
+
+.descripcion-principal p {
+    pointer-events: none;
+}
+
+.descripcion-principal p a {
+    text-decoration:none; color:inherit; 
+}
+
 /* menu Top */
 
 .icono-menu ul li {

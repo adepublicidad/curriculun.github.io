@@ -1,4 +1,10 @@
 /*---- Carousel ----*/
+
+.card .card-img-top {
+    width: 100%;
+    height: auto;
+}
+
 .card-img-top {
     height: 80vh;
     width: 100%;
@@ -33,11 +39,19 @@
 
 .owl-prev span, .owl-next span {
     font-size: 70px;
-    color: #000080!important;
+    color: #000000!important;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
     background: transparent!important;
 }
+
+/* Menu de Navegación */
+
+@media (max-width: 768px) {
+    .owl-prev span, .owl-next span {
+        display: none;
+    }
+ }
 
 /*Fin de Carousel */
