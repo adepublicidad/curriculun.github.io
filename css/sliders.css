@@ -1,0 +1,43 @@
+/*---- Carousel ----*/
+.card-img-top {
+    height: 80vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-img-logo {
+    height: 40vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card a {
+    color: #000080!important;
+    font-weight: bold;
+}
+
+.owl-prev {
+    left: -30px!important;
+}
+
+.owl-next {
+    right: -30px!important;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev span, .owl-next span {
+    font-size: 70px;
+    color: #000080!important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: transparent!important;
+}
+
+/*Fin de Carousel */
